@@ -14,7 +14,7 @@ namespace MessageBroker.Controllers
         // Mock a data store:
         private static List<CommentModel> _Db = new List<CommentModel>
             {
-                new CommentModel { UserName = "God", Webpage = "Index", Comment = "You are the chosen one" },
+                new CommentModel { Id = 1, UserName = "Morpheus", Webpage = "Index", Comment = "You are the chosen one" },
             };
  
  
@@ -42,9 +42,9 @@ namespace MessageBroker.Controllers
             {
                 return BadRequest("Argument Null");
             }
-            var companyExists = _Db.Any(c => c.Id == comment.Id);
+            var commentExists = _Db.Any(c => c.Id == comment.Id);
  
-            if(companyExists)
+            if(commentExists)
             {
                 return BadRequest("Exists");
             }
