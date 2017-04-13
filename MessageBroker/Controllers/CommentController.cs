@@ -14,7 +14,7 @@ namespace MessageBroker.Controllers
         // Mock a data store:
         private static List<CommentModel> _Db = new List<CommentModel>
             {
-                new CommentModel { Id = 1, UserName = "Morpheus", Webpage = "Index", Comment = "You are the chosen one" },
+                new CommentModel { Id = 1, UserName = "Morpheus", Webpage = "Index", Comment = "You are the one" },
             };
  
  
