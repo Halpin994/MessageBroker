@@ -29,8 +29,8 @@ namespace MessageBroker
                 x.Service<Webserver>(s =>
                 {
                     s.ConstructUsing(name => new Webserver());
-                    s.WhenStarted(tc => tc.Start());
-                    s.WhenStopped(tc => tc.Stop());
+                    s.WhenStarted(ws => ws.Start());
+                    s.WhenStopped(ws => ws.Stop());
                 });
                 x.RunAsLocalSystem();
             });

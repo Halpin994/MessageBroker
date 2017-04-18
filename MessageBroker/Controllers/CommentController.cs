@@ -16,9 +16,8 @@ namespace MessageBroker.Controllers
             {
                 new CommentModel { Id = 1, UserName = "Morpheus", Webpage = "Index", Comment = "This...is the Index. It's our main page. We can load anything at runtime, from images...to comments...plugins...embedded youtube videos...anything we need." },
                 new CommentModel { Id = 2, UserName = "Conor", Webpage = "Index", Comment = "Right now, we're inside a computer programme on an EC2 server?" },
-                new CommentModel { Id = 3, UserName = "Morpheus", Webpage = "Index", Comment = "Is it really so hard to believe? Your clothes are different, the plugins on your projects and contact me page are visible, your hair is neat." },
-                new CommentModel { Id = 4, UserName = "Morpheus", Webpage = "Index", Comment = "Your appearance now is what we call 'very employable'. It is the mental projection of your digital self."},
-                new CommentModel { Id = 5, UserName = "Darth Vader", Webpage = "Project", Comment = "Impressive, most impressive." },
+                new CommentModel { Id = 3, UserName = "Morpheus", Webpage = "Index", Comment = "Is it really so hard to believe? Your clothes are different, the plugins on your projects and contact me page are visible, your hair is neat. Your appearance now is what we call 'very employable'. It is the mental projection of your digital self." },
+                new CommentModel { Id = 4, UserName = "Darth Vader", Webpage = "Project", Comment = "Impressive, most impressive." },
             };
  
  
