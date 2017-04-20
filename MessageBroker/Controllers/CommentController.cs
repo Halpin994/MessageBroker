@@ -41,6 +41,7 @@ namespace MessageBroker.Controllers
  
         public IHttpActionResult Post(CommentModel comment)
         {
+            comment.Id = _Db.Last().Id + 1;
             if(comment == null)
             {
                 return BadRequest("Argument Null");
